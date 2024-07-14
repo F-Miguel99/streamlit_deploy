@@ -21,9 +21,8 @@ if "data" not in st.session_state:
 st.write("# FIFA OFFICIAL DATASET! ")
 st.sidebar.markdown("Developed by: Filipe Miguel")
 
-btn = st.button("Acesse os dos no Kaggle")
-if btn:
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database?resource=download")
+btn = st.link_button("Acesse os dos no Kaggle", 
+                     "https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database?resource=download"
 
 
 text_explan ="""
