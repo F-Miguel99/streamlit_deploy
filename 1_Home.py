@@ -22,8 +22,7 @@ st.write("# FIFA OFFICIAL DATASET! ")
 st.sidebar.markdown("Developed by: Filipe Miguel")
 
 btn = st.link_button("Acesse os dos no Kaggle", 
-                     "https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database?resource=download"
-
+                     "https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database?resource=download")
 
 text_explan ="""
 The data was retrieved thanks to a crawler that I implemented to retrieve:
